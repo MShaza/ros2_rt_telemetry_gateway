@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o[0m
+[3.587s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:[m[K In member function ‘[01m[Kint CanReaderNode::[01;32m[Kpool_socket[m[K()[m[K’:
+[3.587s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:71:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing can_msgs::msg::Frame = struct can_msgs::msg::Frame_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct can_msgs::msg::Frame_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kextended[m[K’; did you mean ‘[01m[Kis_extended[m[K’?
+[3.588s]    71 |         can_msg.[01;31m[Kextended[m[K = (frame.can_id & CAN_EFF_FLAG) != 0;
+[3.588s]       |                 [01;31m[K^~~~~~~~[m[K
+[3.588s]       |                 [32m[Kis_extended[m[K
+[3.588s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing can_msgs::msg::Frame = struct can_msgs::msg::Frame_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct can_msgs::msg::Frame_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krtr[m[K’; did you mean ‘[01m[KPtr[m[K’?
+[3.588s]    72 |         can_msg.[01;31m[Krtr[m[K = (frame.can_id & CAN_RTR_FLAG) != 0;
+[3.588s]       |                 [01;31m[K^~~[m[K
+[3.588s]       |                 [32m[KPtr[m[K
+[3.588s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:73:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing can_msgs::msg::Frame_<std::allocator<void> >::_data_type = struct std::array<unsigned char, 8>[m[K’ {aka ‘[01m[Kstruct std::array<unsigned char, 8>[m[K’} has no member named ‘[01m[Kresize[m[K’; did you mean ‘[01m[Ksize[m[K’?
+[3.589s]    73 |         can_msg.data.[01;31m[Kresize[m[K(frame.can_dlc);
+[3.589s]       |                      [01;31m[K^~~~~~[m[K
+[3.589s]       |                      [32m[Ksize[m[K
+[3.589s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:74:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing can_msgs::msg::Frame = struct can_msgs::msg::Frame_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct can_msgs::msg::Frame_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kerrors[m[K’
+[3.589s]    74 |         can_msg.[01;31m[Kerrors[m[K = frame.can_id & CAN_ERR_FLAG;
+[3.589s]       |                 [01;31m[K^~~~~~[m[K
+[4.895s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.895s]    79 | [01;35m[K}[m[K
+[4.895s]       | [01;35m[K^[m[K
+[5.027s] gmake[2]: *** [CMakeFiles/can_reader_node.dir/build.make:76: CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o] Error 1
+[5.028s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/can_reader_node.dir/all] Error 2
+[5.028s] gmake: *** [Makefile:146: all] Error 2
+[5.031s] Invoked command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4

@@ -1,0 +1,81 @@
+# ===============================
+# ROS 2 / Colcon build artifacts
+# ===============================
+build/
+install/
+log/
+colcon_cd.sh
+.colcon_install_layout
+
+# ===============================
+# CMake / Make
+# ===============================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+*.ninja
+*.a
+*.so
+*.dll
+*.dylib
+*.o
+*.obj
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# VS Code / Editor
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+# Python (if you add CLI tools)
+# ===============================
+__pycache__/
+*.egg-info/
+.venv/
+venv/
+env/
+*.log
+
+# ===============================
+# Docker / Devcontainer
+# ===============================
+docker/*.log
+.devcontainer/.env
+.devcontainer/*.log
+.devcontainer/*.pid
+
+# ===============================
+# Miscellaneous
+# ===============================
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# ===============================
+# ROS launch, test, or sim outputs
+# ===============================
+*.test
+*.launch.pyc
+*.launch.py~
+*.bag
+*.mcap
+*.csv
+*.html
+*.json
+
+# ===============================
+# Custom local tools/scripts output
+# ===============================
+tools/output/
+tools/tmp/

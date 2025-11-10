@@ -1,0 +1,108 @@
+[0.043s] Invoking command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4
+[0.191s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.646s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.840s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.884s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.358s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.368s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.035s] -- Found can_msgs: 2.0.0 (/opt/ros/jazzy/share/can_msgs/cmake)
+[2.256s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.541s] -- Configured cppcheck include dirs: 
+[2.542s] -- Configured cppcheck exclude dirs and/or files: 
+[2.551s] -- Added test 'lint_cmake' to check CMake code style
+[2.560s] -- Added test 'uncrustify' to check C / C++ code style
+[2.561s] -- Configured uncrustify additional arguments: 
+[2.566s] -- Added test 'xmllint' to check XML markup files
+[2.586s] -- Configuring done (2.4s)
+[2.630s] -- Generating done (0.0s)
+[2.641s] -- Build files have been written to: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader
+[2.692s] [ 50%] [32mBuilding CXX object CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o[0m
+[8.426s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:20:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K-[m[K’ token
+[8.426s]    30 |     int socket_fd_([01;31m[K-[m[K1);
+[8.426s]       |                    [01;31m[K^[m[K
+[8.427s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K-[m[K’ token
+[8.431s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:32:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kcreate_socket[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.432s]    32 |     [01;31m[Kcreate_socket[m[K(){
+[8.432s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[8.450s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:[m[K In member function ‘[01m[Kint CanReaderNode::[01;32m[Kcreate_socket[m[K()[m[K’:
+[8.450s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:33:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[8.450s]    33 |         [01;31m[Ksocket_fd_[m[K = socket(PF_CAN, SOCK_RAW, CAN_RAW);
+[8.450s]       |         [01;31m[K^~~~~~~~~~[m[K
+[8.451s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:34:13:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[8.451s]    34 |         if ([01;31m[Ksocket_fd_[m[K < 0) {
+[8.451s]       |             [01;31m[K^~~~~~~~~~[m[K
+[8.451s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:36:13:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.452s]    36 |             [01;31m[Kreturn[m[K;
+[8.452s]       |             [01;31m[K^~~~~~[m[K
+[8.452s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:40:19:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’
+[8.452s]    40 |         if (ioctl([01;31m[Ksocket_fd_[m[K, SIOCGIFINDEX, &ifr) < 0) {
+[8.452s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[8.452s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.453s]    30 |     int [01;36m[Ksocket_fd_[m[K(-1);
+[8.453s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.453s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:42:19:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’
+[8.453s]    42 |             close([01;31m[Ksocket_fd_[m[K);
+[8.453s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[8.453s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.453s]    30 |     int [01;36m[Ksocket_fd_[m[K(-1);
+[8.454s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.454s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:43:13:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.454s]    43 |             [01;31m[Kreturn[m[K;
+[8.454s]       |             [01;31m[K^~~~~~[m[K
+[8.454s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:51:18:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’
+[8.454s]    51 |         if (bind([01;31m[Ksocket_fd_[m[K, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
+[8.454s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[8.454s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.454s]    30 |     int [01;36m[Ksocket_fd_[m[K(-1);
+[8.454s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.455s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:53:19:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’
+[8.455s]    53 |             close([01;31m[Ksocket_fd_[m[K);
+[8.455s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[8.455s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.455s]    30 |     int [01;36m[Ksocket_fd_[m[K(-1);
+[8.455s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.455s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:54:13:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[8.455s]    54 |             [01;31m[Kreturn[m[K;
+[8.455s]       |             [01;31m[K^~~~~~[m[K
+[8.468s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:[m[K In member function ‘[01m[Kint CanReaderNode::[01;32m[Kpool_socket[m[K()[m[K’:
+[8.468s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:61:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[8.469s]    61 |         int nBytes = read(socket_fd_, &[01;31m[Kframe[m[K, sizeof(struct can_frame));
+[8.469s]       |                                        [01;31m[K^~~~~[m[K
+[8.469s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:61:47:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KCanReaderNode::pool_socket()::can_frame[m[K’
+[8.469s]    61 |         int nBytes = read(socket_fd_, &frame, [01;31m[Ksizeof(struct can_frame)[m[K);
+[8.469s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.470s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:61:27:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kint CanReaderNode::[01;32m[Ksocket_fd_[m[K(int)[m[K’
+[8.470s]    61 |         int nBytes = read([01;31m[Ksocket_fd_[m[K, &frame, sizeof(struct can_frame));
+[8.470s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[8.470s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.470s]    30 |     int [01;36m[Ksocket_fd_[m[K(-1);
+[8.470s]       |         [01;36m[K^~~~~~~~~~[m[K
+[8.470s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kstruct[m[K’
+[8.470s]    66 |         if(nBytes == sizeof([01;31m[Kstruct[m[K can_fr publish_can_frame(frame)))
+[8.470s]       |                             [01;31m[K^~~~~~[m[K
+[8.471s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kstruct[m[K’
+[8.471s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[8.471s]    66 |         if(nBytes == sizeof[01;36m[K([m[Kstruct can_fr publish_can_frame(frame)))
+[8.471s]       |                            [01;36m[K^[m[K
+[8.471s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[8.471s]    79 | [01;31m[K}[m[K
+[8.471s]       | [01;31m[K^[m[K
+[8.471s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:11:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[8.471s]    66 |         if[01;36m[K([m[KnBytes == sizeof(struct can_fr publish_can_frame(frame)))
+[8.471s]       |           [01;36m[K^[m[K
+[8.472s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[8.472s]    79 | [01;31m[K}[m[K
+[8.472s]       | [01;31m[K^[m[K
+[9.729s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[9.802s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:[m[K In member function ‘[01m[Kint CanReaderNode::[01;32m[Kcreate_socket[m[K()[m[K’:
+[9.802s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:58:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[9.802s]    58 |     [01;35m[K}[m[K
+[9.802s]       |     [01;35m[K^[m[K
+[9.850s] gmake[2]: *** [CMakeFiles/can_reader_node.dir/build.make:76: CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o] Error 1
+[9.850s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/can_reader_node.dir/all] Error 2
+[9.851s] gmake: *** [Makefile:146: all] Error 2
+[9.853s] Invoked command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4

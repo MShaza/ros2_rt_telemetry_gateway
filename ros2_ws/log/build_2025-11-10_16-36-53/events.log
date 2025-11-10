@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001656] (can_reader) JobQueued: {'identifier': 'can_reader', 'dependencies': OrderedDict()}
+[0.001786] (can_reader) JobStarted: {'identifier': 'can_reader'}
+[0.013301] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'cmake'}
+[0.014239] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'build'}
+[0.015174] (can_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', '--', '-j4', '-l4'], 'cwd': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muhammad', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/muhammad', 'OLDPWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2117', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'muhammad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muhammad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/muhammad-MacBookAir7-2:@/tmp/.ICE-unix/2117,unix/muhammad-MacBookAir7-2:/tmp/.ICE-unix/2117', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e88fad87_d3cf_483b_ba74_7e76c5590a2e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ARI9F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.096477] (can_reader) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o\x1b[0m\n'}
+[0.099696] (-) TimerEvent: {}
+[0.200036] (-) TimerEvent: {}
+[0.300372] (-) TimerEvent: {}
+[0.400702] (-) TimerEvent: {}
+[0.501045] (-) TimerEvent: {}
+[0.601389] (-) TimerEvent: {}
+[0.701686] (-) TimerEvent: {}
+[0.801997] (-) TimerEvent: {}
+[0.902345] (-) TimerEvent: {}
+[1.002665] (-) TimerEvent: {}
+[1.102981] (-) TimerEvent: {}
+[1.203303] (-) TimerEvent: {}
+[1.303640] (-) TimerEvent: {}
+[1.403954] (-) TimerEvent: {}
+[1.504266] (-) TimerEvent: {}
+[1.604618] (-) TimerEvent: {}
+[1.704930] (-) TimerEvent: {}
+[1.805244] (-) TimerEvent: {}
+[1.905586] (-) TimerEvent: {}
+[2.005901] (-) TimerEvent: {}
+[2.106222] (-) TimerEvent: {}
+[2.206569] (-) TimerEvent: {}
+[2.306882] (-) TimerEvent: {}
+[2.407198] (-) TimerEvent: {}
+[2.507539] (-) TimerEvent: {}
+[2.607859] (-) TimerEvent: {}
+[2.708237] (-) TimerEvent: {}
+[2.808681] (-) TimerEvent: {}
+[2.908999] (-) TimerEvent: {}
+[3.009339] (-) TimerEvent: {}
+[3.109710] (-) TimerEvent: {}
+[3.210033] (-) TimerEvent: {}
+[3.220522] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Kpool_socket\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.220784] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:75:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.220914] (can_reader) StderrLine: {'line': b'   75 |        std::copy(frame.data, frame.data + frame.can_dlc, \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.data.begin());\n'}
+[3.221031] (can_reader) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.222600] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:75:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[3.223914] (can_reader) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156\x1b[m\x1b[K,\n'}
+[3.224186] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.224448] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K,\n'}
+[3.224675] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[3.224903] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.225115] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.225343] (can_reader) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.225562] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.225761] (can_reader) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23\x1b[m\x1b[K,\n'}
+[3.225962] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267\x1b[m\x1b[K:\n'}
+[3.226159] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.226387] (can_reader) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.226604] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.226804] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.227006] (can_reader) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.227204] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.227428] (can_reader) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26\x1b[m\x1b[K,\n'}
+[3.227639] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[3.227834] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[3.228033] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.228236] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.228473] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.228681] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.228879] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.229081] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[3.229282] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[3.229537] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.229747] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.229955] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[3.230125] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.230291] (can_reader) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.230491] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.230646] (can_reader) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp:23\x1b[m\x1b[K,\n'}
+[3.230840] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/can_msgs/can_msgs/msg/frame.hpp:7\x1b[m\x1b[K,\n'}
+[3.231019] (can_reader) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.231201] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.231436] (can_reader) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.231630] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.231814] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcan_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.231999] (can_reader) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.232184] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.310162] (-) TimerEvent: {}
+[3.410587] (-) TimerEvent: {}
+[3.510988] (-) TimerEvent: {}
+[3.611389] (-) TimerEvent: {}
+[3.711790] (-) TimerEvent: {}
+[3.812186] (-) TimerEvent: {}
+[3.912630] (-) TimerEvent: {}
+[4.013040] (-) TimerEvent: {}
+[4.113439] (-) TimerEvent: {}
+[4.213836] (-) TimerEvent: {}
+[4.314239] (-) TimerEvent: {}
+[4.414680] (-) TimerEvent: {}
+[4.503789] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.504111] (can_reader) StderrLine: {'line': b'   79 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.504343] (can_reader) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.514801] (-) TimerEvent: {}
+[4.615172] (-) TimerEvent: {}
+[4.633568] (can_reader) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/can_reader_node.dir/build.make:76: CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o] Error 1\n'}
+[4.633932] (can_reader) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/can_reader_node.dir/all] Error 2\n'}
+[4.634221] (can_reader) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.637053] (can_reader) CommandEnded: {'returncode': 2}
+[4.650803] (can_reader) JobEnded: {'identifier': 'can_reader', 'rc': 2}
+[4.661972] (-) EventReactorShutdown: {}

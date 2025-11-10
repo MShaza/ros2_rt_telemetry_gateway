@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (can_reader) JobQueued: {'identifier': 'can_reader', 'dependencies': OrderedDict()}
+[0.001015] (can_reader) JobStarted: {'identifier': 'can_reader'}
+[0.014124] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'cmake'}
+[0.015003] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'build'}
+[0.015934] (can_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', '--', '-j4', '-l4'], 'cwd': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muhammad', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/muhammad', 'OLDPWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2117', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'muhammad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muhammad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/muhammad-MacBookAir7-2:@/tmp/.ICE-unix/2117,unix/muhammad-MacBookAir7-2:/tmp/.ICE-unix/2117', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e88fad87_d3cf_483b_ba74_7e76c5590a2e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ARI9F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.097670] (can_reader) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o\x1b[0m\n'}
+[0.099662] (-) TimerEvent: {}
+[0.200048] (-) TimerEvent: {}
+[0.300410] (-) TimerEvent: {}
+[0.400796] (-) TimerEvent: {}
+[0.501183] (-) TimerEvent: {}
+[0.601614] (-) TimerEvent: {}
+[0.701978] (-) TimerEvent: {}
+[0.802350] (-) TimerEvent: {}
+[0.902746] (-) TimerEvent: {}
+[1.003126] (-) TimerEvent: {}
+[1.103531] (-) TimerEvent: {}
+[1.203942] (-) TimerEvent: {}
+[1.304323] (-) TimerEvent: {}
+[1.404707] (-) TimerEvent: {}
+[1.505110] (-) TimerEvent: {}
+[1.605514] (-) TimerEvent: {}
+[1.705955] (-) TimerEvent: {}
+[1.806324] (-) TimerEvent: {}
+[1.906702] (-) TimerEvent: {}
+[2.007077] (-) TimerEvent: {}
+[2.107484] (-) TimerEvent: {}
+[2.207936] (-) TimerEvent: {}
+[2.308313] (-) TimerEvent: {}
+[2.408717] (-) TimerEvent: {}
+[2.509127] (-) TimerEvent: {}
+[2.609535] (-) TimerEvent: {}
+[2.709960] (-) TimerEvent: {}
+[2.810318] (-) TimerEvent: {}
+[2.910696] (-) TimerEvent: {}
+[3.011068] (-) TimerEvent: {}
+[3.111440] (-) TimerEvent: {}
+[3.211859] (-) TimerEvent: {}
+[3.312257] (-) TimerEvent: {}
+[3.412662] (-) TimerEvent: {}
+[3.513061] (-) TimerEvent: {}
+[3.613471] (-) TimerEvent: {}
+[3.713910] (-) TimerEvent: {}
+[3.814314] (-) TimerEvent: {}
+[3.914712] (-) TimerEvent: {}
+[4.015117] (-) TimerEvent: {}
+[4.115521] (-) TimerEvent: {}
+[4.215968] (-) TimerEvent: {}
+[4.316380] (-) TimerEvent: {}
+[4.416822] (-) TimerEvent: {}
+[4.461416] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Kpool_socket\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.461831] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.462080] (can_reader) StderrLine: {'line': b'   79 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.462299] (can_reader) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.516957] (-) TimerEvent: {}
+[4.617333] (-) TimerEvent: {}
+[4.717747] (-) TimerEvent: {}
+[4.818217] (-) TimerEvent: {}
+[4.918688] (-) TimerEvent: {}
+[5.019049] (-) TimerEvent: {}
+[5.119394] (-) TimerEvent: {}
+[5.219731] (-) TimerEvent: {}
+[5.320040] (-) TimerEvent: {}
+[5.420356] (-) TimerEvent: {}
+[5.520670] (-) TimerEvent: {}
+[5.620989] (-) TimerEvent: {}
+[5.721333] (-) TimerEvent: {}
+[5.821668] (-) TimerEvent: {}
+[5.922003] (-) TimerEvent: {}
+[6.022351] (-) TimerEvent: {}
+[6.122702] (-) TimerEvent: {}
+[6.223044] (-) TimerEvent: {}
+[6.323405] (-) TimerEvent: {}
+[6.352922] (can_reader) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable can_reader_node\x1b[0m\n'}
+[6.423562] (-) TimerEvent: {}
+[6.524024] (-) TimerEvent: {}
+[6.624669] (-) TimerEvent: {}
+[6.725317] (-) TimerEvent: {}
+[6.826032] (-) TimerEvent: {}
+[6.926712] (-) TimerEvent: {}
+[7.027065] (-) TimerEvent: {}
+[7.027346] (can_reader) StdoutLine: {'line': b'[100%] Built target can_reader_node\n'}
+[7.045533] (can_reader) CommandEnded: {'returncode': 0}
+[7.046496] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'install'}
+[7.058647] (can_reader) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader'], 'cwd': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muhammad', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/muhammad', 'OLDPWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2117', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'muhammad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muhammad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/muhammad-MacBookAir7-2:@/tmp/.ICE-unix/2117,unix/muhammad-MacBookAir7-2:/tmp/.ICE-unix/2117', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e88fad87_d3cf_483b_ba74_7e76c5590a2e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ARI9F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.069275] (can_reader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.070040] (can_reader) StdoutLine: {'line': b'-- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/lib/can_reader/can_reader_node\n'}
+[7.071541] (can_reader) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/lib/can_reader/can_reader_node" to ""\n'}
+[7.071849] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/package_run_dependencies/can_reader\n'}
+[7.071978] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/parent_prefix_path/can_reader\n'}
+[7.073712] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/ament_prefix_path.sh\n'}
+[7.074085] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/ament_prefix_path.dsv\n'}
+[7.074393] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/path.sh\n'}
+[7.074626] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/path.dsv\n'}
+[7.074937] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.bash\n'}
+[7.075160] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.sh\n'}
+[7.075289] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.zsh\n'}
+[7.075461] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.dsv\n'}
+[7.075596] (can_reader) StdoutLine: {'line': b'-- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/package.dsv\n'}
+[7.075784] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/packages/can_reader\n'}
+[7.075907] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/cmake/can_readerConfig.cmake\n'}
+[7.076008] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/cmake/can_readerConfig-version.cmake\n'}
+[7.076107] (can_reader) StdoutLine: {'line': b'-- Up-to-date: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/package.xml\n'}
+[7.077825] (can_reader) CommandEnded: {'returncode': 0}
+[7.101358] (can_reader) JobEnded: {'identifier': 'can_reader', 'rc': 0}
+[7.102409] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/lib/can_reader/can_reader_node
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/package_run_dependencies/can_reader
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/parent_prefix_path/can_reader
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/ament_prefix_path.sh
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/ament_prefix_path.dsv
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/path.sh
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/path.dsv
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.bash
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.sh
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.zsh
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.dsv
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/package.dsv
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/packages/can_reader
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/cmake/can_readerConfig.cmake
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/cmake/can_readerConfig-version.cmake
+/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/package.xml

@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001104] (can_reader) JobQueued: {'identifier': 'can_reader', 'dependencies': OrderedDict()}
+[0.001185] (can_reader) JobStarted: {'identifier': 'can_reader'}
+[0.035561] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'cmake'}
+[0.041548] (can_reader) JobProgress: {'identifier': 'can_reader', 'progress': 'build'}
+[0.042944] (can_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', '--', '-j4', '-l4'], 'cwd': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muhammad', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/muhammad', 'OLDPWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2117', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'muhammad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muhammad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/muhammad-MacBookAir7-2:@/tmp/.ICE-unix/2117,unix/muhammad-MacBookAir7-2:/tmp/.ICE-unix/2117', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e88fad87_d3cf_483b_ba74_7e76c5590a2e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ARI9F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.133', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=dbeaa8350a0a4bf1095664d069109315', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099792] (-) TimerEvent: {}
+[0.192262] (can_reader) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200040] (-) TimerEvent: {}
+[0.300498] (-) TimerEvent: {}
+[0.400819] (-) TimerEvent: {}
+[0.501168] (-) TimerEvent: {}
+[0.601505] (-) TimerEvent: {}
+[0.647112] (can_reader) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.701641] (-) TimerEvent: {}
+[0.801926] (-) TimerEvent: {}
+[0.840592] (can_reader) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.884796] (can_reader) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.902070] (-) TimerEvent: {}
+[0.946790] (can_reader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002192] (-) TimerEvent: {}
+[1.019301] (can_reader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102324] (-) TimerEvent: {}
+[1.202740] (-) TimerEvent: {}
+[1.303088] (-) TimerEvent: {}
+[1.359258] (can_reader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.368899] (can_reader) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403215] (-) TimerEvent: {}
+[1.503570] (-) TimerEvent: {}
+[1.603927] (-) TimerEvent: {}
+[1.638200] (can_reader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.704043] (-) TimerEvent: {}
+[1.804446] (-) TimerEvent: {}
+[1.904859] (-) TimerEvent: {}
+[2.005408] (-) TimerEvent: {}
+[2.036051] (can_reader) StdoutLine: {'line': b'-- Found can_msgs: 2.0.0 (/opt/ros/jazzy/share/can_msgs/cmake)\n'}
+[2.105578] (-) TimerEvent: {}
+[2.206125] (-) TimerEvent: {}
+[2.257098] (can_reader) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.306247] (-) TimerEvent: {}
+[2.406559] (-) TimerEvent: {}
+[2.507150] (-) TimerEvent: {}
+[2.540724] (can_reader) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.541920] (can_reader) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.542726] (can_reader) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.551237] (can_reader) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.560771] (can_reader) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.561682] (can_reader) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.566530] (can_reader) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.586095] (can_reader) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.607312] (-) TimerEvent: {}
+[2.631367] (can_reader) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.641506] (can_reader) StdoutLine: {'line': b'-- Build files have been written to: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader\n'}
+[2.692464] (can_reader) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o\x1b[0m\n'}
+[2.707488] (-) TimerEvent: {}
+[2.808678] (-) TimerEvent: {}
+[2.908973] (-) TimerEvent: {}
+[3.009540] (-) TimerEvent: {}
+[3.110096] (-) TimerEvent: {}
+[3.210817] (-) TimerEvent: {}
+[3.311402] (-) TimerEvent: {}
+[3.412007] (-) TimerEvent: {}
+[3.512523] (-) TimerEvent: {}
+[3.613163] (-) TimerEvent: {}
+[3.714034] (-) TimerEvent: {}
+[3.814560] (-) TimerEvent: {}
+[3.915077] (-) TimerEvent: {}
+[4.015780] (-) TimerEvent: {}
+[4.116512] (-) TimerEvent: {}
+[4.217374] (-) TimerEvent: {}
+[4.318177] (-) TimerEvent: {}
+[4.419037] (-) TimerEvent: {}
+[4.519618] (-) TimerEvent: {}
+[4.620235] (-) TimerEvent: {}
+[4.720890] (-) TimerEvent: {}
+[4.821738] (-) TimerEvent: {}
+[4.922467] (-) TimerEvent: {}
+[5.023006] (-) TimerEvent: {}
+[5.123663] (-) TimerEvent: {}
+[5.224570] (-) TimerEvent: {}
+[5.325138] (-) TimerEvent: {}
+[5.425614] (-) TimerEvent: {}
+[5.526160] (-) TimerEvent: {}
+[5.626505] (-) TimerEvent: {}
+[5.726801] (-) TimerEvent: {}
+[5.827131] (-) TimerEvent: {}
+[5.927456] (-) TimerEvent: {}
+[6.027775] (-) TimerEvent: {}
+[6.128116] (-) TimerEvent: {}
+[6.228457] (-) TimerEvent: {}
+[6.328773] (-) TimerEvent: {}
+[6.429092] (-) TimerEvent: {}
+[6.529447] (-) TimerEvent: {}
+[6.629804] (-) TimerEvent: {}
+[6.730155] (-) TimerEvent: {}
+[6.830501] (-) TimerEvent: {}
+[6.930850] (-) TimerEvent: {}
+[7.031200] (-) TimerEvent: {}
+[7.131525] (-) TimerEvent: {}
+[7.231869] (-) TimerEvent: {}
+[7.332209] (-) TimerEvent: {}
+[7.432566] (-) TimerEvent: {}
+[7.532897] (-) TimerEvent: {}
+[7.633234] (-) TimerEvent: {}
+[7.734512] (-) TimerEvent: {}
+[7.834952] (-) TimerEvent: {}
+[7.935324] (-) TimerEvent: {}
+[8.035686] (-) TimerEvent: {}
+[8.136037] (-) TimerEvent: {}
+[8.236398] (-) TimerEvent: {}
+[8.336770] (-) TimerEvent: {}
+[8.427116] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.427373] (can_reader) StderrLine: {'line': b'   30 |     int socket_fd_(\x1b[01;31m\x1b[K-\x1b[m\x1b[K1);\n'}
+[8.427553] (can_reader) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.427687] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.432365] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Kcreate_socket\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.432693] (can_reader) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Kcreate_socket\x1b[m\x1b[K(){\n'}
+[8.432870] (can_reader) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.436902] (-) TimerEvent: {}
+[8.450683] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Kcreate_socket\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.451003] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:33:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[8.451182] (can_reader) StderrLine: {'line': b'   33 |         \x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K = socket(PF_CAN, SOCK_RAW, CAN_RAW);\n'}
+[8.451341] (can_reader) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.451617] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:34:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99 (did you forget the \xe2\x80\x98\x1b[01m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 ?)\n'}
+[8.451871] (can_reader) StderrLine: {'line': b'   34 |         if (\x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K < 0) {\n'}
+[8.452077] (can_reader) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.452338] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.452630] (can_reader) StderrLine: {'line': b'   36 |             \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[8.452890] (can_reader) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.453030] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:40:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.453193] (can_reader) StderrLine: {'line': b'   40 |         if (ioctl(\x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K, SIOCGIFINDEX, &ifr) < 0) {\n'}
+[8.453445] (can_reader) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.453581] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.453687] (can_reader) StderrLine: {'line': b'   30 |     int \x1b[01;36m\x1b[Ksocket_fd_\x1b[m\x1b[K(-1);\n'}
+[8.453788] (can_reader) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.453888] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:42:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.453991] (can_reader) StderrLine: {'line': b'   42 |             close(\x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K);\n'}
+[8.454103] (can_reader) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.454264] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.454403] (can_reader) StderrLine: {'line': b'   30 |     int \x1b[01;36m\x1b[Ksocket_fd_\x1b[m\x1b[K(-1);\n'}
+[8.454642] (can_reader) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.454747] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:43:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.454849] (can_reader) StderrLine: {'line': b'   43 |             \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[8.454944] (can_reader) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.455037] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:51:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.455151] (can_reader) StderrLine: {'line': b'   51 |         if (bind(\x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K, (struct sockaddr *)&addr, sizeof(addr)) < 0) {\n'}
+[8.455248] (can_reader) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.455343] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.455468] (can_reader) StderrLine: {'line': b'   30 |     int \x1b[01;36m\x1b[Ksocket_fd_\x1b[m\x1b[K(-1);\n'}
+[8.455576] (can_reader) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.455670] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:53:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.455767] (can_reader) StderrLine: {'line': b'   53 |             close(\x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K);\n'}
+[8.455862] (can_reader) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.455956] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.456059] (can_reader) StderrLine: {'line': b'   30 |     int \x1b[01;36m\x1b[Ksocket_fd_\x1b[m\x1b[K(-1);\n'}
+[8.456145] (can_reader) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.456231] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:54:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.456322] (can_reader) StderrLine: {'line': b'   54 |             \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[8.456409] (can_reader) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.469115] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Kpool_socket\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.469481] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:61:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.469702] (can_reader) StderrLine: {'line': b'   61 |         int nBytes = read(socket_fd_, &\x1b[01;31m\x1b[Kframe\x1b[m\x1b[K, sizeof(struct can_frame));\n'}
+[8.469863] (can_reader) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.470082] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:61:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KCanReaderNode::pool_socket()::can_frame\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.470275] (can_reader) StderrLine: {'line': b'   61 |         int nBytes = read(socket_fd_, &frame, \x1b[01;31m\x1b[Ksizeof(struct can_frame)\x1b[m\x1b[K);\n'}
+[8.470412] (can_reader) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.470554] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:61:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Ksocket_fd_\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.470893] (can_reader) StderrLine: {'line': b'   61 |         int nBytes = read(\x1b[01;31m\x1b[Ksocket_fd_\x1b[m\x1b[K, &frame, sizeof(struct can_frame));\n'}
+[8.470997] (can_reader) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.471093] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:30:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.471191] (can_reader) StderrLine: {'line': b'   30 |     int \x1b[01;36m\x1b[Ksocket_fd_\x1b[m\x1b[K(-1);\n'}
+[8.471286] (can_reader) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.471381] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kstruct\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.471513] (can_reader) StderrLine: {'line': b'   66 |         if(nBytes == sizeof(\x1b[01;31m\x1b[Kstruct\x1b[m\x1b[K can_fr publish_can_frame(frame)))\n'}
+[8.471614] (can_reader) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.471710] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kstruct\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.471808] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.471904] (can_reader) StderrLine: {'line': b'   66 |         if(nBytes == sizeof\x1b[01;36m\x1b[K(\x1b[m\x1b[Kstruct can_fr publish_can_frame(frame)))\n'}
+[8.471998] (can_reader) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.472092] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.472203] (can_reader) StderrLine: {'line': b'   79 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[8.472299] (can_reader) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.472402] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:66:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.472530] (can_reader) StderrLine: {'line': b'   66 |         if\x1b[01;36m\x1b[K(\x1b[m\x1b[KnBytes == sizeof(struct can_fr publish_can_frame(frame)))\n'}
+[8.472630] (can_reader) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.472725] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.472822] (can_reader) StderrLine: {'line': b'   79 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[8.472915] (can_reader) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.537045] (-) TimerEvent: {}
+[8.637387] (-) TimerEvent: {}
+[8.737757] (-) TimerEvent: {}
+[8.838106] (-) TimerEvent: {}
+[8.938463] (-) TimerEvent: {}
+[9.038806] (-) TimerEvent: {}
+[9.139156] (-) TimerEvent: {}
+[9.239519] (-) TimerEvent: {}
+[9.339870] (-) TimerEvent: {}
+[9.440216] (-) TimerEvent: {}
+[9.540563] (-) TimerEvent: {}
+[9.640934] (-) TimerEvent: {}
+[9.729486] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.741077] (-) TimerEvent: {}
+[9.802596] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CanReaderNode::\x1b[01;32m\x1b[Kcreate_socket\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.802815] (can_reader) StderrLine: {'line': b'\x1b[01m\x1b[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:58:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.802945] (can_reader) StderrLine: {'line': b'   58 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[9.803049] (can_reader) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.841227] (-) TimerEvent: {}
+[9.850760] (can_reader) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/can_reader_node.dir/build.make:76: CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o] Error 1\n'}
+[9.851432] (can_reader) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/can_reader_node.dir/all] Error 2\n'}
+[9.851615] (can_reader) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.854084] (can_reader) CommandEnded: {'returncode': 2}
+[9.919988] (can_reader) JobEnded: {'identifier': 'can_reader', 'rc': 2}
+[9.931293] (-) EventReactorShutdown: {}

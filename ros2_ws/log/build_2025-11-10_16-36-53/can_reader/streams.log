@@ -1,0 +1,55 @@
+[0.016s] Invoking command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o[0m
+[3.219s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:[m[K In member function ‘[01m[Kint CanReaderNode::[01;32m[Kpool_socket[m[K()[m[K’:
+[3.219s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:75:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[3.219s]    75 |        std::copy(frame.data, frame.data + frame.can_dlc, [01;31m[Kmsg[m[K.data.begin());
+[3.219s]       |                                                          [01;31m[K^~~[m[K
+[3.222s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:75:58:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.222s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+[3.223s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[3.223s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[3.223s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.223s]                  from [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:1[m[K:
+[3.223s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[3.224s]    30 | namespace [01;36m[Kmsg[m[K
+[3.224s]       |           [01;36m[K^~~[m[K
+[3.224s] In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+[3.224s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[3.225s] [01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[3.225s]    30 | namespace [01;36m[Kmsg[m[K
+[3.225s]       |           [01;36m[K^~~[m[K
+[3.225s] [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[3.225s]    34 | namespace [01;36m[Kmsg[m[K
+[3.226s]       |           [01;36m[K^~~[m[K
+[3.226s] In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+[3.226s]                  from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[3.226s]                  from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[3.226s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[3.228s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[3.228s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.228s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.228s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[3.228s] [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[3.229s]    30 | namespace [01;36m[Kmsg[m[K
+[3.229s]       |           [01;36m[K^~~[m[K
+[3.229s] In file included from [01m[K/opt/ros/jazzy/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp:23[m[K,
+[3.229s]                  from [01m[K/opt/ros/jazzy/include/can_msgs/can_msgs/msg/frame.hpp:7[m[K,
+[3.229s]                  from [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:2[m[K:
+[3.230s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[3.230s]    34 | namespace [01;36m[Kmsg[m[K
+[3.230s]       |           [01;36m[K^~~[m[K
+[3.230s] [01m[K/opt/ros/jazzy/include/can_msgs/can_msgs/msg/detail/frame__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcan_msgs::msg[m[K’
+[3.230s]    34 | namespace [01;36m[Kmsg[m[K
+[3.231s]       |           [01;36m[K^~~[m[K
+[4.502s] [01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:79:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.502s]    79 | [01;35m[K}[m[K
+[4.503s]       | [01;35m[K^[m[K
+[4.632s] gmake[2]: *** [CMakeFiles/can_reader_node.dir/build.make:76: CMakeFiles/can_reader_node.dir/src/can_reader_node.cpp.o] Error 1
+[4.632s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/can_reader_node.dir/all] Error 2
+[4.633s] gmake: *** [Makefile:146: all] Error 2
+[4.636s] Invoked command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4

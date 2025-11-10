@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader -DCMAKE_INSTALL_PREFIX=/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader
+[0.088s] -- The C compiler identification is GNU 13.3.0
+[0.170s] -- The CXX compiler identification is GNU 13.3.0
+[0.190s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.526s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.953s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.017s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.035s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.196s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.315s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.344s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.491s] -- Found can_msgs: 2.0.0 (/opt/ros/jazzy/share/can_msgs/cmake)
+[1.638s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.939s] -- Added test 'lint_cmake' to check CMake code style
+[1.951s] -- Added test 'xmllint' to check XML markup files
+[1.961s] -- Configuring done (1.9s)
+[1.975s] -- Generating done (0.0s)
+[1.979s] -- Build files have been written to: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader
+[1.995s] Invoked command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader -DCMAKE_INSTALL_PREFIX=/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader
+[1.997s] Invoking command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4
+[2.051s] Invoked command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader -- -j4 -l4
+[2.065s] Invoking command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader
+[2.077s] -- Install configuration: ""
+[2.078s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/package_run_dependencies/can_reader
+[2.078s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/parent_prefix_path/can_reader
+[2.078s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/ament_prefix_path.sh
+[2.078s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/ament_prefix_path.dsv
+[2.079s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/path.sh
+[2.079s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/environment/path.dsv
+[2.079s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.bash
+[2.079s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.sh
+[2.079s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.zsh
+[2.080s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/local_setup.dsv
+[2.080s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/package.dsv
+[2.080s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/ament_index/resource_index/packages/can_reader
+[2.080s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/cmake/can_readerConfig.cmake
+[2.080s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/cmake/can_readerConfig-version.cmake
+[2.081s] -- Installing: /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/install/can_reader/share/can_reader/package.xml
+[2.084s] Invoked command in '/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/build/can_reader
