@@ -1,4 +1,0 @@
-[01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:[m[K In member function ‘[01m[Kint CanReaderNode::[01;32m[Kpool_socket[m[K()[m[K’:
-[01m[K/home/muhammad/ros2_rt_telemetry_gateway/ros2_ws/src/can_reader/src/can_reader_node.cpp:85:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
-   85 |     [01;35m[K}[m[K
-      |     [01;35m[K^[m[K
